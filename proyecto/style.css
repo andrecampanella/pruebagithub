@@ -1,0 +1,151 @@
+/*estilos para h1*/
+*{margin: 10;
+padding: 10;
+}
+
+.h1{
+    color: rebeccapurple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: "10";
+}
+
+/*estilos "me encanta css"*/
+
+div {
+  width: 400px; height: 150px; 
+  background-color: aquamarine;
+  border: 4px dotted;
+  padding: 40; 
+  margin: 50; 
+  display: inline-table;
+  text-align: center; 
+}
+div p {
+  display: table-cell; 
+  vertical-align: middle; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18; 
+ text-transform:
+ uppercase; 
+  color:#330757;
+}
+
+.azul {
+  background-color: blue;
+  width: auto;
+}
+.rojo {
+  background-color: red;
+  width: 100px;
+  margin-left: auto;
+}
+.gris {
+  background-color: gray;
+  width: 400px;
+  margin-left: 20%;
+}
+.verde {
+  background-color: green;
+  width: 300px;
+}
+
+.gris, .rojo, .verde {
+  position:absolute
+}
+
+.gris {
+  z-index: 2;
+}
+
+.verde {
+  z-index: 3;
+}
+
+.azul
+{ z-index: 100; }
+
+/*tarea 4 horarios de atencion*/
+
+.h1clase {
+  font-weight: bolder;
+  color: blue;
+}
+
+.mañana {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: center;
+ text-transform: uppercase;
+}
+.tarde {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+.negritalun {
+font-weight: bold;
+color: rebeccapurple;
+font-size: x-large;
+text-transform: capitalize;
+}
+.cursiva{
+  font-style: italic;
+  color:rebeccapurple;
+  font-size: medium;
+}
+
+.negritamar {
+  font-weight: bold;
+  color: aqua;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.cursivamar {
+  font-style: italic;
+  color: aqua;
+}
+
+.negritamie {
+  font-weight: bold;
+  color: blue;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.cursivami {
+  font-style: italic;
+  color: blue;
+  text-transform: capitalize;
+}
+
+.negritajue {
+  font-weight: bold;
+  color: yellow;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.cursivaju {
+  font-style: italic;
+  color: yellow;
+}
+
+.negritavie {
+  font-weight: bold;
+  color: yellowgreen;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.cursivavi {
+  font-style: italic;
+  color: yellowgreen;
+}
+
+.negritafinde {
+  font-weight: bold;
+  color: red;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.cerrado {
+  font-style: italic;
+  color: red;
+}
